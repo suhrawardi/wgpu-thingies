@@ -1,0 +1,25 @@
+[package]
+name = "book"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[dependencies]
+wgpu = "0.11"
+cgmath = "0.18"
+env_logger = "0.9"
+futures = "0.3"
+gfx-hal = "0.9"
+image = "0.23"
+log = "0.4"
+pollster = "0.2"
+winit = "0.25"
+anyhow = "1.0"
+
+[[example]]
+name = "test01"
+path = "examples/test01.rs"
+
+[[example]]
+name = "test02"
+path = "examples/test02.rs"
