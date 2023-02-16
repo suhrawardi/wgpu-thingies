@@ -6,6 +6,7 @@ resolver = "2"
 
 [dependencies]
 wgpu = "0.11"
+bytemuck = "1.13"
 cgmath = "0.18"
 env_logger = "0.9"
 futures = "0.3"
@@ -17,12 +18,12 @@ winit = "0.25"
 anyhow = "1.0"
 
 [[example]]
-name = "test02"
-path = "examples/test02.rs"
-
-[[example]]
 name = "01"
 path = "examples/01/test.rs"
+
+[[example]]
+name = "rotate2d"
+path = "examples/13/rotate2d.rs"
 
 [[example]]
 name = "birds"
